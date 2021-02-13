@@ -1,0 +1,19 @@
+#naslovna img
+{
+    height: 300px;
+    
+}
+#naslovnalevo h1{  
+    padding-top: 19%;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+font-size: 34px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;      
+}
