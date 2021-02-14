@@ -1,13 +1,27 @@
-#naslovna img
+
+
+#naslovna
 {
-    height: 300px;
+  
+    border-bottom:dotted black 1px;
     
 }
+
+#naslovna img
+{
+    height: 550px;
+    width: 100%;
+
+    
+    
+}
+
 #naslovnalevo h1{  
-    padding-top: 19%;
+    padding-top: 25%;
+    padding-left: 5%;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
-font-size: 34px;
+font-size: 50px;
 letter-spacing: 2px;
 word-spacing: 2px;
 color: #000000;
@@ -16,4 +30,32 @@ text-decoration: none;
 font-style: normal;
 font-variant: normal;
 text-transform: none;      
+}
+#naslovnalevo h4
+{
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    
+padding-left: 5%;
+letter-spacing: 2px;
+font-size: 20px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+
+#prvi
+{
+    margin-top: 20%;
+}
+#prvi h1
+{
+    text-align: center;
+    margin-bottom: 6%;
+    
 }
