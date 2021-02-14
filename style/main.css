@@ -9,7 +9,7 @@
 
 #naslovna img
 {
-    height: 550px;
+    height: 600px;
     width: 100%;
 
     
@@ -17,7 +17,7 @@
 }
 
 #naslovnalevo h1{  
-    padding-top: 25%;
+    padding-top: 40%;
     padding-left: 5%;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
@@ -51,11 +51,22 @@ text-transform: none;
 
 #prvi
 {
-    margin-top: 20%;
+    margin-top: 5%;
+    text-align: justify;
 }
 #prvi h1
 {
     text-align: center;
     margin-bottom: 6%;
+    
+}
+#prvi img
+{
+    height: 70%;
+    padding-top: 3%;
+}
+
+#drugi
+{
     
 }
