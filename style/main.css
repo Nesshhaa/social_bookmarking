@@ -1,11 +1,5 @@
 
 
-#naslovna
-{
-  
-    border-bottom:dotted black 1px;
-    
-}
 
 #naslovna img
 {
@@ -51,22 +45,54 @@ text-transform: none;
 
 #prvi
 {
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: justify;
+    
 }
 #prvi h1
 {
     text-align: center;
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     
 }
+
 #prvi img
 {
-    height: 70%;
-    padding-top: 3%;
+    height: 480px;
+    padding-top: 14%;
 }
 
 #drugi
 {
+    margin-top: 50px;
+    text-align: justify;
+}
+#drugi img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#drugi h1
+{
+    text-align: center;
     
+}
+#treci {
+    
+    text-align: justify;
+}
+#treci p 
+{
+    margin-top: 7%;
+}
+#treci h1 
+{
+    text-align: center;
+}
+#treci img{
+    width: 500px;
+    float: right;
 }
