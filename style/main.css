@@ -1,50 +1,27 @@
 
 #naslovna img
 {
-    height: 600px;
+    height: 115%;
     width: 100%;
    
 
     
     
 }
+#myVideo {
 
-#naslovnalevo h1{  
-    padding-top: 40%;
-    padding-left: 5%;
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-font-size: 40px;
-letter-spacing: 2px;
-word-spacing: 2px;
-color: #000000;
-font-weight: 700;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: none;      
+    width: 100%;
+    padding-top: 25%;
 }
-#naslovnalevo h4
+#myBtn
 {
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
+    margin-left: 47%;
     
-padding-left: 5%;
-letter-spacing: 2px;
-font-size: 20px;
-word-spacing: 2px;
-color: #000000;
-font-weight: 700;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: none;
 }
-
 
 #prvi
 {
-    margin-top: 2%;
+    margin-top: 4%;
     text-align: justify;
     
 }
@@ -101,10 +78,32 @@ text-transform: none;
 #treci h5
 {
     margin-top: 2%;
+    
 
 }
+#cetvrti .row
+{
+    padding-left: 10%;
+}
+
 #cetvrti .card
 {
     margin-top: 7%;
-
+    
+    
 }
+#peti
+{
+    
+}
+#peti h1
+{
+    text-align: center;
+    padding-top: 0;
+}
+#peti p
+{
+    text-align: center;
+}
+
+

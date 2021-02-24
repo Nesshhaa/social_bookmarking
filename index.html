@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
 </head>
+
 
 <body>
     <!---NAVIGACIONI BAR-->
@@ -49,24 +55,26 @@
 
     <!--NASLOVNA SLIKA--->
 
-    <div class="container-fluid " id="naslovna">
+    <div class="container-fluid" id="naslovna">
         <div class="row">
             <!---levo-->
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5" id="naslovnalevo">
 
-                <h1>Social Bookmarking</h1>
-                <h4>Zašto je ovaj informacioni trend popularan?</h4>
+                <video autoplay muted loop id="myVideo">
+                    <source src="img/sbxllcrop.mp4" type="video/mp4">
+                </video>
 
             </div>
             <!---desno-->
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7" id="naslovnadesno">
 
-                <img class=" img-fluid" src="img/naslovna4.png" alt="naslovna">
+                <img class=" img-fluid float-right " src="img/naslovna5.png" alt="naslovna">
 
             </div>
         </div>
 
     </div>
+
 
 
     <!--prvi deo-->
@@ -108,7 +116,7 @@
     <!---DRUGI DEO-->
 
     <div class="container" id="drugi">
-        <br><br>
+        <br><br> <br>
         <div class="row">
             <!---Drugi levo-->
             <div class="col">
@@ -128,28 +136,33 @@
                     Njihov koncept je u to vreme bio pomalo napredan, jer je mogao da olakša razmenu zajedničkih
                     obeleživača koji potiču iz interfejsa zasnovanih na mreži. Komentari, kao i organizacija podataka u
                     različite kategorije takođe su bili izvodljivi uz VebTagger.</p>
-                <p>Idući dalje kroz vreme 2003. dolazi do pojave tagova. Ideju o tagovanju došla je zajedno sa
-                    sajtom Delicious.
-                    SB sajt koji je bio aktivan od 2003. do 2008. godine. Utvari, upravo je Delicious prvi put skovao
-                    termin
-                    "social bookmarking". Ostale kompanije iz tog vremena iskoristile su ovaj trend i probili se sa
-                    njim. Neke od tih
-                    kompanija uključuju StumbleUpon, CiteULike and Furl itd.
-                </p>
-                <p>2009. godine Pinboard je omogućio tržištu SB-a da proba njihove usluge obeležavanja društvenih mreža
-                    koje su dolazile sa plaćenim računima. Značajan razvoj se dogodio u 2015. godini kada je lansiran
-                    <a target="_blank" href="https://www.memosnag.com/">memosnag</a> koji
-                    je postao omiljen kod mnogih učenika koji su ga koristili. Moderan SB sajt na kome možete deliti
-                    slike, radove, linkove itd.
-                    Većina ovih kompanija vremenom se povukla, osim <a href="https://www.reddit.com/">Reddit</a>-a.
-                    Osnovan jednoj
-                    2005. godine a danas važi za jedan od najposećenih sajtova na svetu. Zasnovan je na principu
-                    postavljanja,
-                    komentarisanja i ocenjivanja veb sadržaja.
-                </p>
-                <p>Social Bookmarking je i dalje vrlo široko korišćen marketinški alat koji naglašava brend
-                    Koristi koncept marketinga „pokaži, ne govori“ i iako direktna prodaja nije primarni cilj ove
-                    marketinške strategije, ona maksimizira vidljivost vaše kompanije...</p>
+                <p>Idući dalje kroz vreme 20<span id="dots">...</span><span id="more">03. dolazi do pojave tagova. Ideju
+                        o tagovanju došla je zajedno sa
+                        sajtom Delicious.
+                        SB sajt koji je bio aktivan od 2003. do 2008. godine. Utvari, upravo je Delicious prvi put
+                        skovao
+                        termin
+                        "social bookmarking". Ostale kompanije iz tog vremena iskoristile su ovaj trend i probili se sa
+                        njim. Neke od tih
+                        kompanija uključuju StumbleUpon, CiteULike and Furl itd.
+
+                        2009. godine Pinboard je omogućio tržištu SB-a da proba njihove usluge obeležavanja društvenih
+                        mreža
+                        koje su dolazile sa plaćenim računima. Značajan razvoj se dogodio u 2015. godini kada je
+                        lansiran
+                        <a target="_blank" href="https://www.memosnag.com/">memosnag</a> koji
+                        je postao omiljen kod mnogih učenika koji su ga koristili. Moderan SB sajt na kome možete deliti
+                        slike, radove, linkove itd.
+                        Većina ovih kompanija vremenom se povukla, osim <a href="https://www.reddit.com/">Reddit</a>-a.
+                        Osnovan jednoj
+                        2005. godine a danas važi za jedan od najposećenih sajtova na svetu. Zasnovan je na principu
+                        postavljanja,
+                        komentarisanja i ocenjivanja veb sadržaja.
+
+                        Social Bookmarking je i dalje vrlo široko korišćen marketinški alat koji naglašava brend
+                        Koristi koncept marketinga „pokaži, ne govori“ i iako direktna prodaja nije primarni cilj ove
+                        marketinške strategije, ona maksimizira vidljivost vaše kompanije.</span></p>
+                <button onclick="readMore()" id="myBtn">Prikaži više</button>
             </div>
 
 
@@ -189,8 +202,8 @@
                     Drugim rečima, kada označimo
                     linkove do veb stranice na SB sajtovima, Google pretraga indeksira veze u zavisnosti od vrednosti
                     ključnih reči prethodno postavljenih za te linkove.
-                
-                Optimizacija pretraživača daje viši rang stranicama koje imaju više
+
+                    Optimizacija pretraživača daje viši rang stranicama koje imaju više
                     povezanosti sa drugim stranicama. Ukoliko veb stranicu označite na više SB stranica dobićete
                     povratnu vezu sa svake od njih,
                     To rezultira višim rangom stranice za vašu veb stranicu ili veb lokaciju.
@@ -198,7 +211,7 @@
                     povećanja prometa na veb lokaciji. Preporučuje se da se definišu odgovarajući naslov, opis i
                     ključne reči tako da ključne reči budu optimizovane za pojmove pretrage. To je još jedan način za
                     povećanje prometa na veb stranici.</p>
-                
+
             </div>
 
         </div>
@@ -206,79 +219,134 @@
         <!----Cetvrti deo-->
 
         <div class="container" id="cetvrti">
-            <h2 style="text-align: center; margin-bottom: 5%;">Popularni social bookmarking sajtovi</h2>
+            <br><br><br><br>
+            <h1 style="text-align: center; margin-bottom: 5%;">Popularni social bookmarking sajtovi</h1>
             <div class="row">
-                
+
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card  border-0" style="width: 14rem;">
                         <img class="card-img-top" style="width: auto;" src="img/evernote.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href=""><h5 class="card-title text-center">Evernote</h5></a>
-                          <p class="card-text text-center">Popularni SB servis dizajniran kao aplikacija za kreiranje, organizovanje i čuvanje različitih medijskih datoteka.</p>
-                          
+                            <a href="">
+                                <h5 class="card-title text-center">Evernote</h5>
+                            </a>
+                            <p class="card-text text-center">Popularni SB servis dizajniran kao aplikacija za kreiranje,
+                                organizovanje i čuvanje različitih medijskih datoteka.</p>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card border-0" style="width: 16rem; height: auto;">
-                        <img class="card-img-top" style="width: auto; margin-top:7%;" src="img/pocket.png" alt="Card image cap">
+                    <div class="card border-0" style="width: 14rem; height: auto;">
+                        <img class="card-img-top" style="width: auto; margin-top:7%;" src="img/pocket.png"
+                            alt="Card image cap">
                         <div class="card-body">
-                            <a href=""><h5 class="card-title text-center">Pocket</h5></a>
-                          <p class="card-text">Dizajniran za korisnike da uređuju svoj prostor člancima, video zapisima i pričama iz bilo koje publikacije, stranice ili aplikacije.</p>
-                          
+                            <a href="">
+                                <h5 class="card-title text-center">Pocket</h5>
+                            </a>
+                            <p class="card-text">Dizajniran za korisnike da uređuju svoj prostor člancima, video
+                                zapisima i pričama iz bilo koje publikacije, stranice ili aplikacije.</p>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card border-0" style="width: 18rem;">
-                        <img class="card-img-top" style="width: 83%; margin-top: 0px;"  src="img/digg.png" alt="Card image cap">
+                    <div class="card border-0" style="width: 14rem;">
+                        <img class="card-img-top" style="width: 83%; margin-top: 0px;" src="img/digg.png"
+                            alt="Card image cap">
                         <div class="card-body">
-                            <a href=""><h5 class="card-title text-center">Digg</h5></a>
-                          <p class="card-text">Digg je više društvena platforma sa člancima koji pokrivaju širok spektar aktuelnih događaja.</p>
-                         
+                            <a href="">
+                                <h5 class="card-title text-center">Digg</h5>
+                            </a>
+                            <p class="card-text">Digg je više društvena platforma sa člancima koji pokrivaju širok
+                                spektar aktuelnih događaja.</p>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
-            
-            
+
+
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card border-0" style="width: 14rem;">
+                        <img class="card-img-top" style="width:auto" src="img/pinterest.png" alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="">
+                                <h5 class="card-title text-center">Pinterest</h5>
+                            </a>
+                            <p class="card-text">Stvorite Pinterest table, sačuvajte sadržaj za deljenje i vratite se
+                                kasnije. Komunicirajte sa drugim korisnicima koje zanimaju iste teme.</p>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card border-0" style="width: 14rem;">
+                        <img class="card-img-top" style="width: auto;" src="img/reddit.png" alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="">
+                                <h5 class="card-title text-center">Reddit</h5>
+                            </a>
+                            <p class="card-text">Udruštvena platforma na kojoj korisnici šalju postove za koje drugi
+                                korisnici „glasaju“ ili „protiv“ na osnovu toga da li im se sviđaju.</p>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card border-0" style="width: 14rem;">
+                        <img class="card-img-top" style="width: auto;" src="img/mix.png" alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="">
+                                <h5 class="card-title text-center">Mix</h5>
+                            </a>
+                            <p class="card-text">Izaberite teme koje vas zanimaju i miksirajte sadržaj na koji ćete se
+                                kasnije vratiti. Pratite ostale korisnike Mix-a da biste videli njihov sačuvani sadržaj
+                                na vašem fidu.</p>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
 
- 
+
+        <div class="container" #peti>
+            <br><br><br>
+            <h1>Zaključak</h1>
+
+            <p>Iz celokupnog teksta iznad videli smo da je social bookmarking jedan veoma širok pojam. Teško je precizno
+                objasniti u par rečenica celokupni koncept.
+                Na prvu lako je po nazivu zaključiti da SB predstavlja neko obeležavanje. Najprostije rečeno, SB
+                pretstavlja online funkciju sličnu obeležavanju na našem pretraživaču.
+                Međutim, kao što smo mogli videti SB nema samo funkciju čuvanja već i deljenja, ocenjivanja podeljenog.
+                Posebno je potrebno napomenuti SEO funkciju. Sam koncept nastao još davne
+                2003. godine ali i danas igra važnu ulogu.
+            </p>
+        </div>
+
+        <script>
+            function readMore() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Prikaži manje";
+                    moreText.style.display = "inline";
+                }
+            }
+        </script>
+
+        <script src="js/main.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
@@ -287,6 +355,9 @@
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
             crossorigin="anonymous"></script>
 </body>
 
