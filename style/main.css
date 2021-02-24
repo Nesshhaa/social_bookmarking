@@ -13,9 +13,9 @@
     width: 100%;
     padding-top: 25%;
 }
-#myBtn
+#myBtn, #myBtn1
 {
-    margin-left: 47%;
+    margin-left: 45%;
     
 }
 
@@ -92,10 +92,7 @@
     
     
 }
-#peti
-{
-    
-}
+
 #peti h1
 {
     text-align: center;

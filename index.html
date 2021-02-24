@@ -13,6 +13,10 @@
         #more {
             display: none;
         }
+
+        #more1 {
+            display: none;
+        }
     </style>
 </head>
 
@@ -47,6 +51,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#cetvrti">Primeri SB-a</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#peti">Zaključak</a>
                     </li>
                 </ul>
             </div>
@@ -187,32 +194,33 @@
                     lokaciji, a ne čuvaju na računaru, SB vam omogućava da pregledate omiljene
                     veb lokacije bilo gde u svetu. Samo registracijom na odgovarajućim SB sajtovima možete bez napora
                     da sačuvate vaše podatke.</p>
-                <h5>Povećana vidljivost pretraživača</h5>
+                <h5>Povećanje SEO vrednosti</h5>
                 <p>Kako SB sajtovi svakodnevno primaju milione poseta, to je dobar način za povećanje prometa na
-                    vašoj veb lokaciji. Što više bookmarkova imate, to ćete više posetilaca dobiti.</p>
+                    vašoj veb lokaciji. Što više bookmarkova imate, to ćete više posetilaca dobiti<span
+                        id="dots1">...</span><span id="more1">
+                        SB predstavlja najbrži način da se pretraživači nađu na veb stranici.
+                        Drugim rečima, kada označimo
+                        linkove do veb stranice na SB sajtovima, Google pretraga indeksira veze u zavisnosti od
+                        vrednosti
+                        ključnih reči prethodno postavljenih za te linkove.
+
+                        Optimizacija pretraživača daje viši rang stranicama koje imaju više
+                        povezanosti sa drugim stranicama. Ukoliko veb stranicu označite na više SB stranica dobićete
+                        povratnu vezu sa svake od njih,
+                        To rezultira višim rangom stranice za vašu veb stranicu ili veb lokaciju.
+                        Objavljivanje zanimljivog sadržaja koji privlači širu publiku dovešće do
+                        povećanja prometa na veb lokaciji. Preporučuje se da se definišu odgovarajući naslov, opis i
+                        ključne reči tako da ključne reči budu optimizovane za pojmove pretrage. To je još jedan način
+                        za
+                        povećanje prometa na veb stranici.</span></p>
+                <button onclick="readMore1()" id="myBtn1">Prikaži više</button>
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <img src="img/prednosti.png" alt="">
             </div>
 
-            <div class="col" style="text-align: justify;">
-                <h5>Povećanje SEO vrednosti</h5>
-                <p style="margin-top: 20px;">SB predstavlja najbrži način da se pretraživači nađu na veb stranici.
-                    Drugim rečima, kada označimo
-                    linkove do veb stranice na SB sajtovima, Google pretraga indeksira veze u zavisnosti od vrednosti
-                    ključnih reči prethodno postavljenih za te linkove.
 
-                    Optimizacija pretraživača daje viši rang stranicama koje imaju više
-                    povezanosti sa drugim stranicama. Ukoliko veb stranicu označite na više SB stranica dobićete
-                    povratnu vezu sa svake od njih,
-                    To rezultira višim rangom stranice za vašu veb stranicu ili veb lokaciju.
-                    Objavljivanje zanimljivog sadržaja koji privlači širu publiku dovešće do
-                    povećanja prometa na veb lokaciji. Preporučuje se da se definišu odgovarajući naslov, opis i
-                    ključne reči tako da ključne reči budu optimizovane za pojmove pretrage. To je još jedan način za
-                    povećanje prometa na veb stranici.</p>
-
-            </div>
 
         </div>
 
@@ -227,7 +235,7 @@
                     <div class="card  border-0" style="width: 14rem;">
                         <img class="card-img-top" style="width: auto;" src="img/evernote.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href="">
+                            <a href="https://evernote.com/" target="_blank">
                                 <h5 class="card-title text-center">Evernote</h5>
                             </a>
                             <p class="card-text text-center">Popularni SB servis dizajniran kao aplikacija za kreiranje,
@@ -242,7 +250,7 @@
                         <img class="card-img-top" style="width: auto; margin-top:7%;" src="img/pocket.png"
                             alt="Card image cap">
                         <div class="card-body">
-                            <a href="">
+                            <a href="https://getpocket.com/" target="_blank">
                                 <h5 class="card-title text-center">Pocket</h5>
                             </a>
                             <p class="card-text">Dizajniran za korisnike da uređuju svoj prostor člancima, video
@@ -257,7 +265,7 @@
                         <img class="card-img-top" style="width: 83%; margin-top: 0px;" src="img/digg.png"
                             alt="Card image cap">
                         <div class="card-body">
-                            <a href="">
+                            <a href="https://digg.com/" target="_blank">
                                 <h5 class="card-title text-center">Digg</h5>
                             </a>
                             <p class="card-text">Digg je više društvena platforma sa člancima koji pokrivaju širok
@@ -272,7 +280,7 @@
                     <div class="card border-0" style="width: 14rem;">
                         <img class="card-img-top" style="width:auto" src="img/pinterest.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href="">
+                            <a href="https://www.pinterest.com/" target="_blank">
                                 <h5 class="card-title text-center">Pinterest</h5>
                             </a>
                             <p class="card-text">Stvorite Pinterest table, sačuvajte sadržaj za deljenje i vratite se
@@ -286,7 +294,7 @@
                     <div class="card border-0" style="width: 14rem;">
                         <img class="card-img-top" style="width: auto;" src="img/reddit.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href="">
+                            <a href="https://www.reddit.com/" target="_blank">
                                 <h5 class="card-title text-center">Reddit</h5>
                             </a>
                             <p class="card-text">Udruštvena platforma na kojoj korisnici šalju postove za koje drugi
@@ -300,7 +308,7 @@
                     <div class="card border-0" style="width: 14rem;">
                         <img class="card-img-top" style="width: auto;" src="img/mix.png" alt="Card image cap">
                         <div class="card-body">
-                            <a href="">
+                            <a href="https://mix.com/" target="_blank">
                                 <h5 class="card-title text-center">Mix</h5>
                             </a>
                             <p class="card-text">Izaberite teme koje vas zanimaju i miksirajte sadržaj na koji ćete se
@@ -314,20 +322,29 @@
         </div>
 
 
-        <div class="container" #peti>
+        <div class="container" id="peti">
             <br><br><br>
             <h1>Zaključak</h1>
 
-            <p>Iz celokupnog teksta iznad videli smo da je social bookmarking jedan veoma širok pojam. Teško je precizno
+            <p style="text-align: justify;">Iz celokupnog teksta iznad videli smo da je social bookmarking jedan veoma
+                širok pojam. Teško je precizno
                 objasniti u par rečenica celokupni koncept.
                 Na prvu lako je po nazivu zaključiti da SB predstavlja neko obeležavanje. Najprostije rečeno, SB
                 pretstavlja online funkciju sličnu obeležavanju na našem pretraživaču.
                 Međutim, kao što smo mogli videti SB nema samo funkciju čuvanja već i deljenja, ocenjivanja podeljenog.
                 Posebno je potrebno napomenuti SEO funkciju. Sam koncept nastao još davne
-                2003. godine ali i danas igra važnu ulogu.
+                2003. godine ali i danas igra važnu ulogu. Ukoliko želite da sačuvate neke veb lokacije, istražite neke
+                nove ili promovišete vaš sajt SB je stvoren za to.
             </p>
         </div>
+        <footer>
 
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
         <script>
             function readMore() {
                 var dots = document.getElementById("dots");
@@ -336,7 +353,22 @@
 
                 if (dots.style.display === "none") {
                     dots.style.display = "inline";
-                    btnText.innerHTML = "Read more";
+                    btnText.innerHTML = "Prikaži više";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Prikaži manje";
+                    moreText.style.display = "inline";
+                }
+            }
+            function readMore1() {
+                var dots = document.getElementById("dots1");
+                var moreText = document.getElementById("more1");
+                var btnText = document.getElementById("myBtn1");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Prikaži više";
                     moreText.style.display = "none";
                 } else {
                     dots.style.display = "none";
