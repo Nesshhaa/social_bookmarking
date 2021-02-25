@@ -93,6 +93,7 @@
     
 }
 
+
 #peti h1
 {
     text-align: center;
@@ -104,3 +105,8 @@
 }
 
 
+#video
+{
+    width: 65%;
+    margin: 0 auto; 
+}
