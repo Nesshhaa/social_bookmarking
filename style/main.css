@@ -1,0 +1,112 @@
+
+#naslovna img
+{
+    height: 115%;
+    width: 100%;
+   
+
+    
+    
+}
+#myVideo {
+
+    width: 100%;
+    padding-top: 25%;
+}
+#myBtn, #myBtn1
+{
+    margin-left: 45%;
+    
+}
+
+#prvi
+{
+    margin-top: 4%;
+    text-align: justify;
+    
+}
+#prvi h1
+{
+    text-align: center;
+    margin-bottom: 4%;
+    
+}
+
+#prvi img
+{
+    height: 480px;
+    padding-top: 14%;
+}
+
+#drugi
+{
+    margin-top: 50px;
+    text-align: justify;
+}
+#drugi img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#drugi h1
+{
+    text-align: center;
+    margin-bottom: 6%;
+    
+}
+#treci {
+    margin-top: 5%;
+    text-align: justify;
+}
+#treci p 
+{
+    margin-top: 5%;
+}
+#treci h1 
+{
+    text-align: center;
+    margin-bottom: 6%;
+}
+#treci img{
+    width: 350px;
+    float: right;
+}
+
+#treci h5
+{
+    margin-top: 2%;
+    
+
+}
+#cetvrti .row
+{
+    padding-left: 10%;
+}
+
+#cetvrti .card
+{
+    margin-top: 7%;
+    
+    
+}
+
+
+#peti h1
+{
+    text-align: center;
+    padding-top: 0;
+}
+#peti p
+{
+    text-align: center;
+}
+
+
+#video
+{
+    width: 65%;
+    margin: 0 auto; 
+}
